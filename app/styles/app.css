@@ -1,8 +1,4 @@
-.thumbnails {
-    list-style: none;
-    padding: 0;
-}
-
-.thumbnails li {
-    display: inline;
+input.ember-text-field {
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,0.6);
+    -webkit-box-shadow: inset 2px 2px 4px rgba(0,0,0,0.6);
 }

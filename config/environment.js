@@ -5,8 +5,9 @@ module.exports = function(environment) {
    contentSecurityPolicy: {
       'default-src': "'none'",
       'script-src': "'self' 'unsafe-inline' 'unsafe-eval' api.flickr.com",
+      'style-src':  "'self' 'unsafe-inline'",
       'connect-src': "'self' api.flickr.com",
-      'img-src': "'self' *.staticflickr.com",
+      'img-src': "'self' *.staticflickr.com 'unsafe-eval' 'unsafe-inline' data:",
     },
     modulePrefix: 'specify',
     environment: environment,
